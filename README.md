@@ -10,7 +10,7 @@ This is a collection of scripts that will allow you to launch JupyterLab in a Ch
 An official version of JupyterLab for the desktop [exists](https://github.com/jupyterlab/jupyterlab-desktop), but it was retired a while ago and has currently has major security flaws, according to Project Jupyter.
 
 ### So why use this then?
-Ever close the terminal running JupyterLab when you didn't mean to? Not possible with JupyterDesktop, as the terminal running the show is hidden. Furthermore, with searchbar and tabs hidden, and with an icon in the taskbar, it genuinely feels like a standalone IDE, clearing up the annoyance of digging through multiple tabs, or dealing with multiple web browser windows.
+Ever close the terminal running JupyterLab when you didn't mean to? Ever lost your JupyterLab tab in a sea of other tabs? Does alt-tabbing between two browser windows with the same name and icon bother you? If you said yes to any of these quesitons, JupyterDesktop has you covered. Furthermore, with searchbar and tabs hidden, and with an icon in the taskbar, it genuinely feels like a standalone IDE.
 
 ### If this a wrapper for the official JupyterLab, is it slower?
 No. Since behind the hood it's running in Edge, it'll run at the same speed as if you had launched JupyterLab regularly. Plus Electron (what was used for the official Jupyter desktop application) is basically a web browser anyways.. kinda.
@@ -47,5 +47,3 @@ No. Since behind the hood it's running in Edge, it'll run at the same speed as i
 > This launcher only works on **Windows 10 or Windows 11**.
 > 
 > It does not run on macOS or Linux.
-
----
